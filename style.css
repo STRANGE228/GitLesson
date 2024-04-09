@@ -10,6 +10,11 @@ body {
 ol li {
     list-style-position: inside;
 }
+ol:hover li:hover {
+    list-style-position: inside;
+    text-decoration-color: white;
+    color: white;
+}
 .exam {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: pink;
@@ -25,8 +30,8 @@ footer {
     color: white;
 }
 a.foo:hover {
-  text-decoration-color: black;
-  color: black;
+  text-decoration-color: white;
+  color: white;
 }
 a.foo {
   text-decoration-color: white;
